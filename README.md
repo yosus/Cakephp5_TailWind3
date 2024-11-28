@@ -14,7 +14,7 @@ Goto `/Pages/tailWind` to see it running. You will see a page like :
 ## Install TailWind
 
 See official tailwind installation site at [TailWind](https://tailwindcss.com/docs/installation). As of writing, the Tailwind version is 3.4.13. 
-There are mainly these 2 installation-commands :
+Go to your Cakephp5 root folder (where composer.json file is). There are mainly these 2 installation-commands :
 
 ```bash
 npm install -D tailwindcss
@@ -26,7 +26,7 @@ After TailWind installation, there will be additional 'node' folders and 'packag
 
 ## Build TailWind Command
 
-Command to build style.css **constantly** when template files are changed.
+Command to build style.css **constantly** when template files are changed. Call this command at your Cakephp5 root folder (where composer.json file is)
 ```bash
 npx tailwindcss -i  resources/input.css -o webroot/css/style.css --watch;
 ```
