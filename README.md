@@ -1,5 +1,9 @@
 # CakePHP 5 with TailWind 3.4.13
 
+A simple guide to use TailWind with Cakephp.
+
+<br /><br />
+
 ## Quick Start
 
 Install [Cakephp 5](https://book.cakephp.org/5/en/installation.html) & [TailWind](https://tailwindcss.com/docs/installation). Copy these files below to your project folder. 
@@ -8,10 +12,18 @@ Install [Cakephp 5](https://book.cakephp.org/5/en/installation.html) & [TailWind
 2. templates/Pages/tail_wind.php
 3. webroot/css/style.css
 
-Goto `/Pages/tailWind` to see it running. You will see a page like :
+Goto `/Pages/tailWind` to see it running. You will see a page like : 
+<br />
 ![sample 1](https://github.com/user-attachments/assets/bf137d28-d2af-4887-b850-1fc2ea825e20)
 
-## Install TailWind
+<br /><br />
+## Step 1 : Install Cakephp5
+
+This step is not covered here, as you are expected to be familiar with Cakephp framework. Follow the instructions here : [Cakephp 5 installation](https://book.cakephp.org/5/en/installation.html)
+
+<br /><br />
+
+## Step 2 : Install TailWind
 
 See official tailwind installation site at [TailWind](https://tailwindcss.com/docs/installation). As of writing, the Tailwind version is 3.4.13. 
 Go to your Cakephp5 root folder (where composer.json file is). There are mainly these 2 installation-commands :
@@ -23,17 +35,18 @@ npx tailwindcss init
 
 After TailWind installation, there will be additional 'node' folders and 'package' files in the Cakephp project folder.
 
+<br /><br />
 
-## Build TailWind Command
+## Step 3 : Build TailWind Command
 
-Command to build style.css **constantly** when template files are changed. Call this command at your Cakephp5 root folder (where composer.json file is)
+This is the command to build style.css **constantly** when template files are changed. Call this command at your Cakephp5 root folder (where composer.json file is)
 ```bash
 npx tailwindcss -i  resources/input.css -o webroot/css/style.css --watch;
 ```
 
+<br /><br />
 
-
-## Files To Note
+## Other : Files To Note
 
 Here are the few files to take note of :
 
