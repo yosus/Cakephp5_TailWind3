@@ -2,20 +2,14 @@
 /**
  * @var \App\View\AppView $this
  */
+?>
 
 
-
-
-
-
-    ?>
-
-
-<!--Loads Alpine JS-->
+<!--Loads Alpine JS . Not needed in this sample project -->
 <script src="//unpkg.com/alpinejs" defer></script>
 
 
-<!--Loads Tailwind css .  see -->
+<!--Loads Tailwind css -->
 <link rel="stylesheet" href="/css/style.css" />
 
 
